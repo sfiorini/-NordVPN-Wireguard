@@ -68,6 +68,6 @@ AllowedIPs = 0.0.0.0/0, ::0/0
 Endpoint = ${ENDPOINT}:51820
 PersistentKeepalive = 25
 EOF
-
+qrencode -t ansiutf8 < $OUTPUFILENAME
 echo "Wireguard configuration file $OUTPUFILENAME created successfully!"
 exit 0
