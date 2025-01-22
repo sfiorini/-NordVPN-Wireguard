@@ -13,7 +13,7 @@ First let's clone this project so that you'll have the script on your target [Ub
 ### Install required packages
 
 ```bash
-sudo apt install wireguard curl jq net-tools
+sudo apt install wireguard curl jq net-tools qrencode
 ```
 
 ### Install [NordVPN](https://nordvpn.com) client
